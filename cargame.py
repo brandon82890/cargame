@@ -121,7 +121,7 @@ while True:
         time.sleep(0.5)
 
         DISPLAYSURF.fill(RED)
-        DISPLAYSURF.BLIT(GAME_OVER, (30,250))
+        DISPLAYSURF.blit(game_over, (30,250))
 
         pygame.display.update()       
         for entity in all_sprites:
